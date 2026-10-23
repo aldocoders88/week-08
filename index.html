@@ -2,17 +2,33 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PokéMart - Toko Pokémon (Struktur Latihan CSS)</title>
-	
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Asap+Sharp:ital,wght@0,100..900;1,100..900&family=Momo+Trust+Display&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
-</style>
 
-* {font-family: Asap Sharp;}
-.store-title {font-family: Momo Trust Display;}
-.pokemon-name {font-family: Momo Trust Display;}
-.pokemon-type {font-family: Saira;}
-	
+    <!-- Preconnect agar font Google lebih cepat dimuat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Semua CSS harus berada DI DALAM satu tag <style>, dan @import harus paling atas -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Asap+Sharp:ital,wght@0,100..900;1,100..900&family=Momo+Trust+Display&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+        * {
+            font-family: 'Asap Sharp', 'Open Sans', Arial, sans-serif;
+        }
+
+        .store-title {
+            font-family: 'Momo Trust Display', 'Raleway', Arial, sans-serif;
+        }
+
+        .pokemon-name {
+            font-family: 'Momo Trust Display', 'Raleway', Arial, sans-serif;
+        }
+
+        .pokemon-type {
+            font-family: 'Saira', Arial, sans-serif;
+        }
+    </style>
 </head>
 <body>
 
@@ -22,7 +38,7 @@
         <div class="store-header">
             <h1 class="store-title">🏪 PokéMart Official Store</h1>
             <p class="store-subtitle">Pusat Adopsi Pokémon Terpercaya - Region Kanto</p>
-            
+
             <div class="store-stats">
                 <div class="store-stat-item">💰 Saldo Trainer: <b>25,000 P$</b></div>
                 <div class="store-stat-item">🎒 Kapasitas Tim: <b>6 / 20</b></div>
@@ -46,7 +62,7 @@
                     <h2 class="pokemon-name">Bulbasaur</h2>
                     <div class="pokemon-type">Grass / Poison</div>
                     <p class="pokemon-desc">Pokémon ramah pembawa benih tanaman di punggungnya, sangat tenang dan cocok untuk pelatih pemula.</p>
-                    
+
                     <div class="pokemon-stats">
                         <div class="stat-row">
                             <span class="stat-label">Harga Beli:</span>
@@ -89,7 +105,7 @@
                     <h2 class="pokemon-name">Ivysaur</h2>
                     <div class="pokemon-type">Grass / Poison</div>
                     <p class="pokemon-desc">Evolusi Bulbasaur dengan kuncup bunga mekar di punggungnya yang siap merekah indah.</p>
-                    
+
                     <div class="pokemon-stats">
                         <div class="stat-row">
                             <span class="stat-label">Harga Beli:</span>
@@ -132,7 +148,7 @@
                     <h2 class="pokemon-name">Venusaur</h2>
                     <div class="pokemon-type">Grass / Poison</div>
                     <p class="pokemon-desc">Bunga raksasa di punggungnya mampu menyerap energi sinar matahari untuk menghasilkan serangan dahsyat.</p>
-                    
+
                     <div class="pokemon-stats">
                         <div class="stat-row">
                             <span class="stat-label">Harga Beli:</span>
@@ -175,7 +191,7 @@
                     <h2 class="pokemon-name">Charmander</h2>
                     <div class="pokemon-type">Fire</div>
                     <p class="pokemon-desc">Kadal api yang ceria dengan nyala api di ujung ekornya yang menunjukkan kesehatan serta semangat juang.</p>
-                    
+
                     <div class="pokemon-stats">
                         <div class="stat-row">
                             <span class="stat-label">Harga Beli:</span>
@@ -218,7 +234,7 @@
                     <h2 class="pokemon-name">Charmeleon</h2>
                     <div class="pokemon-type">Fire</div>
                     <p class="pokemon-desc">Memiliki temperamen membara dan cakar tajam. Api di ekornya bergolak dahsyat saat melawan musuh tangguh.</p>
-                    
+
                     <div class="pokemon-stats">
                         <div class="stat-row">
                             <span class="stat-label">Harga Beli:</span>
@@ -261,7 +277,7 @@
                     <h2 class="pokemon-name">Charizard</h2>
                     <div class="pokemon-type">Fire / Flying</div>
                     <p class="pokemon-desc">Naga api legendaris bersayap kokoh yang sanggup melontarkan semburan api super panas pembelah batuan.</p>
-                    
+
                     <div class="pokemon-stats">
                         <div class="stat-row">
                             <span class="stat-label">Harga Beli:</span>
@@ -304,7 +320,7 @@
                     <h2 class="pokemon-name">Squirtle</h2>
                     <div class="pokemon-type">Water</div>
                     <p class="pokemon-desc">Kura-kura mungil lincah dengan pertahanan cangkang keras dan semprotan air yang berdaya dorong kuat.</p>
-                    
+
                     <div class="pokemon-stats">
                         <div class="stat-row">
                             <span class="stat-label">Harga Beli:</span>
@@ -347,7 +363,7 @@
                     <h2 class="pokemon-name">Wartortle</h2>
                     <div class="pokemon-type">Water</div>
                     <p class="pokemon-desc">Kura-kura bertelinga dan berekor tebal yang menyimpan air serta membantu menjaga keseimbangan di arus deras.</p>
-                    
+
                     <div class="pokemon-stats">
                         <div class="stat-row">
                             <span class="stat-label">Harga Beli:</span>
@@ -390,7 +406,7 @@
                     <h2 class="pokemon-name">Blastoise</h2>
                     <div class="pokemon-type">Water</div>
                     <p class="pokemon-desc">Dua meriam air baja di tempurungnya sanggup melontarkan semburan air yang mampu menembus plat baja tebal.</p>
-                    
+
                     <div class="pokemon-stats">
                         <div class="stat-row">
                             <span class="stat-label">Harga Beli:</span>
@@ -433,7 +449,7 @@
                     <h2 class="pokemon-name">Caterpie</h2>
                     <div class="pokemon-type">Bug</div>
                     <p class="pokemon-desc">Ulat hijau mungil yang sangat cepat tumbuh, memakan dedaunan dengan rakus dan sangat mudah dirawat.</p>
-                    
+
                     <div class="pokemon-stats">
                         <div class="stat-row">
                             <span class="stat-label">Harga Beli:</span>
